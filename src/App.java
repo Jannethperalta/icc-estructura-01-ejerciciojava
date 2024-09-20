@@ -28,6 +28,9 @@ public class App {
          * realizar operaciones básicas de manera creativa en programación.
          */
         int resultado = dataStructuresPrep.subtractAlgorithm(15, 5);
+        //int multiplicación = dataStructuresPrep.findMaximum(5,2);
+        int dividend = dataStructuresPrep.divideWAlgorithm (15,5);
+       // int anita =dataStructuresPrep.isPerfectNumber(28);
 
         /*
          * Imprimir el resultado de la operación.
@@ -44,6 +47,7 @@ public class App {
          * parte de mensajes de salida o en lógicas de decisión más complejas.
          */
         System.out.println("El resultado de subtractAlgorithm  es: " + resultado);
+        System.out.println("el resultado de division es:"+ dividend);
 
     }
 }
